@@ -65,3 +65,7 @@ a {
 .content {
   text-align: center;
 }
+
+button {
+  padding: 12px 24px;
+}

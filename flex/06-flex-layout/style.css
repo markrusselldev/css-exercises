@@ -34,3 +34,27 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+.header,
+.footer,
+.left-links,
+.right-links {
+  display: flex;
+}
+
+.header,
+.footer {
+  justify-content: space-between;
+  padding: 6px 12px;
+}
+
+.footer {
+  background-color: #eee;
+}
+
+.left-links,
+.right-links {
+  gap: 12px;
+  padding: 0;
+  margin: 5px;
+}
